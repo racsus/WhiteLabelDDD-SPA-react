@@ -1,4 +1,4 @@
-# Web API Template with DDD pattern
+# SPA Template with react and CoreUI
 
 _Singel Page Application with Coreui with Auth0 authentication integrated._
 
@@ -17,7 +17,6 @@ https://oscarchelo.blogspot.com/<br />
 https://www.linkedin.com/in/oscar-rodriguez-lopez-70b2a337<br />
 <https://github.com/orgs/coreui/people><br />
 
-## Coreui readme
 
 [![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
 [![npm package][npm-coreui-badge]][npm-coreui]

@@ -26,7 +26,7 @@ const TheSidebar = () => {
       onShowChange={(val) => dispatch({type: 'set', sidebarShow: val })}
     >
       <CSidebarBrand className="d-md-down-none" to="/">
-        <h3>WhiteLabel SPA</h3>
+        <h3>{process.env.REACT_APP_TITLE}</h3>
       </CSidebarBrand>
       <CSidebarNav>
 
