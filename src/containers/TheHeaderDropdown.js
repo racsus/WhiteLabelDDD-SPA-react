@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import config from "../auth_config.json";
 import {
   CDropdown,
   CDropdownItem,
@@ -25,7 +26,7 @@ const TheHeaderDropdown = () => {
       // Get user icon
       const getToken = async () => {    
         const accessToken = await auth0Client.getTokenSilently({
-          audience: '<auth0_audience>',
+          audience: config.audience,
           scope: 'openid email profile',
         });
         setToken(accessToken);
