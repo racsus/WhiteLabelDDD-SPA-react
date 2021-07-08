@@ -14,6 +14,8 @@ import API from "../utils/API.js";
 const TheHeaderDropdown = () => {  
   const { auth0Client } = useAuth0();
   const [token, setToken] = useState('');
+  const [avatar, setAvatar] = useState('avatars/logo_company.png');
+  const [email, setEmail] = useState('');
 
   const LogOut = function() {  
     auth0Client.logout({
@@ -34,10 +36,11 @@ const TheHeaderDropdown = () => {
         API.defaults.headers.common = {'Authorization': `Bearer ${accessToken}`};
         API.get(`User/Me`)
         .then(response => {
-            //console.log(response.data);
             var result = response.data;
             if ((result.succeeded === true) && (result.object) && (result.object.picture)) {
-              document.getElementById("imgAvatar").src = result.object.picture;          
+              //console.log(result.object);
+              setAvatar(result.object.picture);      
+              setEmail(result.object.email);  
             }        
         }).finally(e => { 
         }); 
@@ -54,12 +57,12 @@ const TheHeaderDropdown = () => {
       direction="down"
     >
       <CDropdownToggle className="c-header-nav-link" caret={false}>
-        <div className="c-avatar">
+      <div className="c-avatar">
           <CImg
             id='imgAvatar'
-            src={'avatars/logo_unops.png'}
+            src={avatar}
             className="c-avatar-img"
-            alt="admin@bootstrapmaster.com"
+            alt={email}
           />
         </div>
       </CDropdownToggle>
