@@ -1,5 +1,6 @@
 {
-  "domain": "<auth0-domain>",
-  "clientId": "<auth0-clientId>",
-  "audience": "<auth0-audience>"
+  "domain": "<%= Auth0_Domain %>",
+  "clientId": "<%= Auth0_ClientID %>",
+  "audience": "<%= Auth0_Audience %>",
+  "scope": "<%= Auth0_Scope %>"
 }
