@@ -64,7 +64,7 @@ const TheAside = () => {
                 <div className="c-avatar float-right">
                   <CImg
                     className="c-avatar-img"
-                    src="avatars/7.jpg"
+                    src="avatars/6.jpg"
                     alt="admin@bootstrapmaster.com"
                   />
                 </div>
@@ -76,7 +76,7 @@ const TheAside = () => {
                 <div className="c-avatar float-right">
                   <CImg
                     className="c-avatar-img"
-                    src="avatars/4.jpg"
+                    src="avatars/6.jpg"
                     alt="admin@bootstrapmaster.com"
                   />
                 </div>
@@ -96,10 +96,6 @@ const TheAside = () => {
                 <small className="text-muted mr-3"><CIcon name="cil-calendar" /> 10 - 11pm</small>
                 <small className="text-muted"><CIcon name="cil-home" /> creativeLabs HQ</small>
                 <div className="c-avatars-stack mt-2">
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/2.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/3.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/4.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/5.jpg" alt="admin@bootstrapmaster.com" /></div>
                   <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" /></div>
                 </div>
               </CListGroupItem>
@@ -113,13 +109,7 @@ const TheAside = () => {
                 <small className="text-muted mr-3"><CIcon name="cil-calendar" /> 4 - 6pm</small>
                 <small className="text-muted"><CIcon name="cil-home" /> creativeLabs HQ</small>
                 <div className="c-avatars-stack mt-2">
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/2.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/3.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/4.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/5.jpg" alt="admin@bootstrapmaster.com" /></div>
                   <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/7.jpg" alt="admin@bootstrapmaster.com" /></div>
-                  <div className="c-avatar c-avatar-xs"><CImg className="c-avatar-img" src="avatars/8.jpg" alt="admin@bootstrapmaster.com" /></div>
                 </div>
               </CListGroupItem>
             </CListGroup>
@@ -129,7 +119,7 @@ const TheAside = () => {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="c-avatar">
-                  <CImg className="c-avatar-img" src="avatars/7.jpg" alt="admin@bootstrapmaster.com" />
+                  <CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" />
                   <span className="c-avatar-status bg-success"></span>
                 </div>
               </div>
@@ -144,7 +134,7 @@ const TheAside = () => {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="c-avatar">
-                  <CImg className="c-avatar-img" src="avatars/7.jpg" alt="admin@bootstrapmaster.com" />
+                  <CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" />
                   <span className="c-avatar-status bg-success"></span>
                 </div>
               </div>
@@ -159,7 +149,7 @@ const TheAside = () => {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="c-avatar">
-                  <CImg className="c-avatar-img" src="avatars/7.jpg" alt="admin@bootstrapmaster.com" />
+                  <CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" />
                   <span className="c-avatar-status bg-success"></span>
                 </div>
               </div>
@@ -174,7 +164,7 @@ const TheAside = () => {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="c-avatar">
-                  <CImg className="c-avatar-img" src="avatars/7.jpg" alt="admin@bootstrapmaster.com" />
+                  <CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" />
                   <span className="c-avatar-status bg-success"></span>
                 </div>
               </div>
@@ -189,7 +179,7 @@ const TheAside = () => {
             <div className="message">
               <div className="py-3 pb-5 mr-3 float-left">
                 <div className="c-avatar">
-                  <CImg className="c-avatar-img" src="avatars/7.jpg" alt="admin@bootstrapmaster.com" />
+                  <CImg className="c-avatar-img" src="avatars/6.jpg" alt="admin@bootstrapmaster.com" />
                   <span className="c-avatar-status bg-success"></span>
                 </div>
               </div>
