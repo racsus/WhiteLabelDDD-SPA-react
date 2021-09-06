@@ -2,5 +2,6 @@
   "domain": "<%= Auth0_Domain %>",
   "clientId": "<%= Auth0_ClientID %>",
   "audience": "<%= Auth0_Audience %>",
-  "scope": "<%= Auth0_Scope %>"
+  "scope": "<%= Auth0_Scope %>",
+  "namespace": "<%= Auth0_Namespace %>"
 }

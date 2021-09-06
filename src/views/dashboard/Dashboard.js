@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+//import config from "./auth_config.json";
 import {
   CButton,
   CCard,
@@ -7,15 +8,19 @@ import {
   CCol,
   CProgress,
   CRow
-} from '@coreui/react'
-import CIcon from '@coreui/icons-react'
-
-import MainChartExample from '../charts/MainChartExample.js'
-
-// const WidgetsDropdown = lazy(() => import('../widgets/WidgetsDropdown.js'))
-// const WidgetsBrand = lazy(() => import('../widgets/WidgetsBrand.js'))
+} from '@coreui/react';
+import CIcon from '@coreui/icons-react';
+import MainChartExample from '../charts/MainChartExample.js';
 
 const Dashboard = () => {
+  // Auth0 Permissions. https://oscarchelo.blogspot.com/2021/09/get-permissions-and-roles-with-auth0.html
+  // const { user } = useAuth0();
+
+  // let permissions = user[`${config.namespace}permissions`];
+  // if (!permissions.includes('read:dashboard')) {
+  //   window.open(`#/401`, '_self');
+  // }
+
   return (
     <>
       {/* <WidgetsDropdown /> */}
