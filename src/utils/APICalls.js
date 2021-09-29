@@ -24,7 +24,7 @@ const APICall = {
             if (result.succeeded === true) {
                 return new responseModel(true, result.object,  null);
             } else {
-                return new responseModel(false, null, result.errors.length > 0 ? result.errors[0] : "There is a problem with the API service.");
+                return new responseModel(false, null, result.Errors.length > 0 ? result.Errors[0].Description : "There is a problem with the API service.");
             }               
         } else {
             return new responseModel(false, null, "There is a problem with the API service.");
@@ -52,7 +52,7 @@ const APICall = {
             if (result.succeeded === true) {
                 return new responseModel(true, result.object,  null);
             } else {
-                return new responseModel(false, null, result.errors.length > 0 ? result.errors[0] : "There is a problem with the API service.");
+                return new responseModel(false, null, result.Errors.length > 0 ? result.Errors[0].Description : "There is a problem with the API service.");
             }               
         } else {
             return new responseModel(false, null, "There is a problem with the API service.");
@@ -71,7 +71,8 @@ const APICall = {
             return { 
                 "data":  {
                     "object": null, 
-                    "errors": [`${errorMessage }`]
+                    "Errors": [ { "Description" : `${errorMessage }` }],
+                    "succeeded": false
                 }
             };
         });
@@ -80,7 +81,7 @@ const APICall = {
             if (result.succeeded === true) {
                 return new responseModel(true, result.object,  null);
             } else {
-                return new responseModel(false, null, result.errors.length > 0 ? result.errors[0] : "There is a problem with the API service.");
+                return new responseModel(false, null, result.Errors.length > 0 ? result.Errors[0].Description : "There is a problem with the API service.");
             }               
         } else {
             return new responseModel(false, null, "There is a problem with the API service.");
@@ -108,7 +109,7 @@ const APICall = {
             if (result.succeeded === true) {
                 return new responseModel(true, result.object,  null);
             } else {
-                return new responseModel(false, null, result.errors.length > 0 ? result.errors[0] : "There is a problem with the API service.");
+                return new responseModel(false, null, result.Errors.length > 0 ? result.Errors[0].Description : "There is a problem with the API service.");
             }               
         } else {
             return new responseModel(false, null, "There is a problem with the API service.");
